@@ -58,3 +58,57 @@ header {
     width: auto;
     cursor: pointer;
 }
+
+.banner {
+    height: calc(100vh - 83px);
+    align-items: center;
+}
+
+.banner-title {
+    font-size: 50px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.banner-text {
+    font-size: 22px;
+    padding-top: 50px;
+}
+
+.banner-buttons {
+    padding-top: 50px;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+.banner-btnl {
+    grid-template-columns: 1fr;
+    justify-items: end;
+}
+
+.primary-btn {
+    background-color: #FFAB7C;
+    color: #fff;
+    text-align: center;
+    border-radius: 30px;
+    font-size: 22px;
+    padding: 15px 0;
+    width: 200px;
+    cursor: pointer;
+}
+
+.banner-btnr {
+    grid-template-columns: 1fr;
+    justify-items: start;
+}
+
+.secondary-btn {
+    color: #FFAB7C;
+    text-align: center;
+    border-radius: 30px;
+    font-size: 22px;
+    padding: 15px 0;
+    width: 200px;
+    border: 1px solid #FFAB7C;
+    cursor: pointer;
+}

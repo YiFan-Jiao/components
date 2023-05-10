@@ -1,12 +1,10 @@
 //rfce  
-import React from 'react'
-
 function Header() {
   return (
     <header>
       <div className='container grid header'>
         <div className='page-title'>
-          MINIccc
+          MINI
         </div>
         <div className='head-nav grid'>
           <div>
