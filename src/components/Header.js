@@ -6,7 +6,7 @@ function Header() {
     <header>
       <div className='container grid header'>
         <div className='page-title'>
-          MINI
+          MINIccc
         </div>
         <div className='head-nav grid'>
           <div>
