@@ -28,6 +28,7 @@ header {
     font-weight: 700;
     color: #000;
     cursor: pointer;
+    font-family: 'PT Serif', serif;
 }
 
 .head-nav {
