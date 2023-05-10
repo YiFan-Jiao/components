@@ -112,3 +112,45 @@ header {
     border: 1px solid #FFAB7C;
     cursor: pointer;
 }
+
+.gallery-color {
+    background-color: #F5F5F5;
+    padding: 100px 0;
+}
+
+.gallery {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 30px;
+}
+
+.gallery img {
+    cursor: pointer;
+}
+
+footer {
+    background-color: #242424;
+    color: #D9D9D9;
+    height: 300px;
+}
+
+.footer {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    padding-top: 50px;
+}
+
+.footer-name {
+    font-size: 50px;
+}
+
+.fooot-tag {
+    font-size: 18px;
+}
+
+.footer2 {
+    font-size: 18px;
+    line-height: 45px;
+}
+
+.footer2 div {
+    cursor: pointer;
+}
